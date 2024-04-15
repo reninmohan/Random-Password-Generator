@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --green-color:#007e4d;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.container{
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    background-color: #00203a;
+    min-height: 100vh;
+    padding-top: 1px;
+}
+
+.notification{
+    position: fixed;
+    color: #fff;
+    top: 50px;
+    right: 50px;
+    background-color: #4CAF50;
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+    transition: opacity 2s ease;
+}
+
+
+.notification.show{
+    display: block;
+    opacity: 1;
+}
+
+h1{
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+}
+
+.app{
+    width: 90%;
+    max-width: 600px;
+    margin: 10em 1em 1em 10em;
+    padding: 30px 30px;
+}
+
+.accent-color {
+    color: var(--green-color);
+    border-bottom: 3px solid var(--green-color);
+    padding-bottom: 5px;
+    display: block;
+    margin-top: 0.2em;
+}
+
+.passwordInput{
+    flex: 1;
+    padding: 10px;
+    background-color: #fff;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+}
+
+.generate{
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #edeef0;
+    outline: none;
+    border-radius: 5px;
+    background-color: var(--green-color);
+    padding:20px;
+    margin-top: 1.5em;
+}
+
+.passwordGenerator{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+img{
+    width: 30px;
+}
+
+.copy{
+    background-color: #fff;
+    border: none;
+}
+@media(max-width:900px){
+    .app{
+        margin:5em auto 1em;
+    }
+
+    .notification{
+        right: 2px;
+    }
+
+    .passwordGenerator{
+        margin-top: 2em;
+    }
+
+    .generate{
+        margin-top: 2em;
+    }
+
+}
+
+@media(max-width:400px){
+    .passwordInput{
+        width: 75%;
+    }
+}

@@ -25,11 +25,11 @@ function copyPassword(){
         showNotification(message);
     })
     .catch(err =>{
-        console.log("Error while copying password to clipboard.")
+        console.error("Error while copying password to clipboard:", err);
+        showNotification("Error copying password. Please try again.");
     })
     }else{
-        let error = "Click on Generate Password Button"
-        showNotification(error);
+        showNotification("Click on Generate Password Button");
     }
 }
 

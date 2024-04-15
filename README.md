@@ -4,6 +4,8 @@ Screenshots
 -----------
 ![Random Password Generator Screenshot](./assets/random_password_generator.png)
 
+Site is live at https://reninmohan.github.io/Random-Password-Generator/
+
 Overview
 --------
 This is a simple random password generator that generates a password of 12 characters containing alphabets (both uppercase and lowercase), numbers, and special characters. It provides a convenient way to create strong and secure passwords for various purposes.

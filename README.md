@@ -2,7 +2,7 @@ Random Password Generator
 
 Screenshots
 -----------
-[Random Password Generator Screenshot](./assets/random_password_generator.png)
+![Random Password Generator Screenshot](./assets/random_password_generator.png)
 
 Overview
 --------

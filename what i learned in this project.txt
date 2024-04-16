@@ -1,0 +1,4 @@
+1.Using position fixed along with top, right for creating notification will appear using style.display="block" when clicked on copy and automatically disapper using style.display="none" within setTimeOut.
+2.Using emoji within buttons
+3.Using sort array high order function directly on array
+4.Using using navigator api of browser to navigator.clipboard.writeText(message) to copy input text value in system clipboard and display notification.
